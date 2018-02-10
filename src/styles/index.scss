@@ -1,0 +1,29 @@
+$body-color: blue;
+
+body {
+  color: $body-color;
+  font-family: sans-serif;
+  .h1, .h3 {
+    color: #333;
+  }
+
+  .input {
+    padding: 10px;
+    border: 0;
+    border-bottom: 1px solid grey;
+    outline: 0;
+    margin-right: 20px;
+  }
+
+  .button {
+    border: 5px;
+    border-color: #fff;
+    border-radius: 50px;
+    background: rgb(50, 91, 179);
+    outline: 0;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+  }
+}  
